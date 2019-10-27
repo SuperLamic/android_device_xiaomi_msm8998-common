@@ -218,6 +218,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # WFD
 PRODUCT_PROPERTY_OVERRIDES += \
+    persist.hwc.enable_vds=1 \
     persist.sys.wfd.virtual=0
 
 # Wlan
